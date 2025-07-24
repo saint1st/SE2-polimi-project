@@ -1,0 +1,515 @@
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R1] The S\&C system allows new users (students, universities, and companies) to register by giving
+ their credentials (e.g., name, email address, password).\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Database (Stores user information securely)
+    \item Profile Manager (Handles user profile creation and updates)
+    \item Authenticate Manager (Manages user authentication and credentials)
+    \item Notification Manager (Sends confirmation email after registration)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R2] The system allows users (students, universities, and companies) to login.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Database (Verifies credentials against stored data)
+    \item Profile Manager (Manages user session after login)
+    \item Authenticate Manager (Validates user credentials and manages sessions)
+    \item Notification Manager (Notifies users of successful login or errors)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R3] The system allows students to create and update their profile (experience, skills, CV).\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Database (Stores student profile data such as skills, experience, and CV)
+    \item Profile Manager (Handles student profile creation and updates)
+    \item Recommendation Engine (Provides feedback to students about profile completeness)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R4] The system allows companies to create and update company’s profile (about, field of work, achievements).\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Database (Stores company details and achievements)
+    \item Profile Manager (Manages company profile data)
+    \item Company Portal (Provides interface for companies to manage their profiles)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R5] The system allows universities to create and update their profile.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Database (Stores university profile information)
+    \item Profile Manager (Manages university data)
+    \item University Admin Portal (Provides interface for universities to manage their profiles)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R6] The system helps students in creating their CVs by giving intelligent suggestions for making a stronger CV and pointing out mistakes.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Database (Stores CV data)
+    \item Profile Manager (Integrates feedback with user profiles)
+    \item Recommendation Engine (Provides intelligent suggestions based on user input)
+    \item Recommendation Engine (Analyzes user data for profile improvement)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R7] Students can search for internship opportunities by clicking on the "Search" button.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Database (Stores internship data)
+    \item Search Engine (Handles internship searches)
+    \item Recommendation Engine (Suggests internships based on student profiles)
+    \item Notification Manager (Notifies students of available internships)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R8] Students can apply to the desired internship by clicking on the "Apply" button for an internship post.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Database (Stores submitted applications)
+    \item Profile Manager (Tracks application status)
+    \item Notification Manager (Notifies companies about new applications)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R9] The system provides personalized recommendations to the students for internships based on students' profiles and skills which match with available internships.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Database (Stores internship listings and student profiles)
+    \item Recommendation Engine (Handles recommendation logic)
+    \item Notification Manager (Alerts students about recommended internships)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R10] Students can automatically apply to any recommended internship by clicking on the "Accept" button.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Database (Stores auto-applied internship data)
+    \item Profile Manager (Updates user application status)
+    \item Recommendation Engine (For getting the matched internships)
+    \item Notification Manager (Alerts users of successful application)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R11] Companies can post internship opportunities and descriptions which include application domain, tasks to be performed, skills required.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Database (Stores internship listings)
+    \item Company Portal (Provides interface for companies to post internships)
+    \item Profile Manager (For posting internship description)
+    \item Notification Manager (Notifies users of new internship postings)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R12] The system can provide recommendations to improve the internship posts by companies.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Database (Stores internship descriptions and related data)
+    \item Recommendation Engine (Analyzes internship posts and suggests improvements)
+    \item \textbf Recommendation Engine (Provides suggestions for improvement)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R13] The companies can prepare a questionnaire in the system to be forwarded to the students to get
+additional information from them when the selection process starts.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Company Portal (Provides an interface for companies to create questionnaires)
+    \item Profile Manager (Handles student and company profile management)
+    \item Database (Stores questionnaire data and responses)
+    \item Notification Manager (Notifies students about questionnaire assignments)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R14] The system can recommend companies about available students who match the job description and skills by applying statistical analysis based on the characteristics of students and internships.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Recommendation Engine (Handles matching students with internships based on their profiles)
+    \item Profile Manager (Manages student and company profiles)
+    \item Database (Stores student, company, and internship data for analysis)
+    \item Notification Manager (Notifies companies about matching students)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R15] The system notifies students and companies once every day to recommend new matches.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Notification Manager (Manages daily notifications about new matches)
+    \item Recommendation Engine (Suggests new matches)
+    \item Database (Stores match history and user preferences)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R16] Companies can track applications and review candidate CVs.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Company Portal (Displays applications and CVs for review)
+    \item Database (Stores applications and CVs)
+    \item Profile Manager (Handles the management of student profiles)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R17] Companies can accept or reject an application or a suggestion by the system by clicking on "Accept" or "Reject" buttons for each application.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Company Portal (Provides accept/reject functionality for applications)
+    \item Selection Process (Manages the acceptance/rejection process)
+    \item Database (Stores the updated status of applications)
+    \item Notification Manager (Notifies students of acceptance/rejection)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R18] A messaging channel is opened when a recommendation is accepted by both student and company or an application by student is accepted by company.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Student Portal (Provides interface for messaging students)
+    \item Company Portal (Provides interface for messaging companies)
+    \item Selection Process (Manages messaging after acceptance)
+    \item Database (Stores message history)
+    \item Notification Manager (Notifies both students and companies of new messages)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R19] The prepared questionnaire is forwarded to the student.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Student Portal (Displays questionnaire to students)
+    \item Database (Stores student responses to questionnaires)
+    \item Notification Manager (Notifies students about new questionnaires)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R20] The system helps in the management of the selection process by scheduling interviews.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Selection Process (Manages interview scheduling)
+    \item University Admin Portal (Manages scheduling of university-administered interviews)
+    \item Notification Manager (Notifies both student and company about scheduled interviews)
+    \item Database (Stores interview scheduling data)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R21] The system sends interview link or interview location to both student and company.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Selection Process (Provides interview link and location data)
+    \item Database (Stores interview details and links)
+    \item Notification Manager (Notifies both student and company)
+    \item Email Service (Sends interview details via email)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R22] The system allows the company to update the interview results.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Company Portal (Provides an interface to update interview results)
+    \item Selection Process (Stores and processes interview results)
+    \item Database (Stores interview results)
+    \item Notification Manager (Notifies students about interview results)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R23] Interview results are updated in the platform and users are notified.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Selection Process (Handles interview result updating)
+    \item Notification Manager (Sends interview result notifications)
+    \item Database (Stores updated results)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R24] The system collects feedback from students and companies to then use the gathered data to better its analysis and recommendation algorithm.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Feedback \& Analytics (Processes collected feedback)
+    \item Recommendation Engine (Uses feedback for improvements)
+    \item Database (Stores feedback data)
+    \item Notification Manager (Notifies users about feedback requests)
+    \item Feedback \& Analytics (For improving the recommendation model)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R25] The system has a dedicated page to keep track and monitor all the ongoing search and selection processes for all three types of users (students, university, companies).\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item User Interfaces
+    \item Internship Monitor Engine (Monitors the overall status of selection)
+    \item Database (Stores real-time data of ongoing processes)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R26] During the selection process and during the interview the involved parties can raise concerns or complaints which will be monitored by the university.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item Complaint Manager (Manages complaint submission and tracking)
+    \item University Admin Portal (Monitors and resolves complaints)
+    \item Notification Manager (Notifies concerned parties about complaints)
+    \item Database (Stores complaint data)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Requirements} & 
+[R27] The system allows the university to decide on required actions to perform like warning to respective parties or interruption of internship and updates the same on the platform.\\
+\hline
+\textbf{Components} & 
+\begin{itemize}
+    \item University Admin Portal (Manages actions and decisions)
+    \item Notification Manager (Notifies concerned parties about actions)
+    \item Database (Stores decision data and actions)
+\end{itemize} \\
+\hline
+\end{tabular}
+\label{tab:req_comp}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
