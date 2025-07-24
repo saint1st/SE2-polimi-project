@@ -39,7 +39,7 @@ This project involves two key components:
 ---
 ## 🧩 Formal Modeling with Alloy 6
 
-<img src="Alloy2.jpg" alt="Politecnico di Milano" width="400" align="right"/>
+<img src="Alloy2.jpg" alt="Politecnico di Milano" width="600" align="right"/>
 
 To validate and specify the core constraints of the system, we used the [**Alloy 6** modeling tool](https://alloytools.org/).
 
