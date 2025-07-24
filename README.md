@@ -5,7 +5,7 @@
 
 ---
 
-<img src="Class Diagram.drawio (4).png" alt="Politecnico di Milano" width="400" align="right"/>
+<img src="Class Diagram.drawio (4).png" alt="Politecnico di Milano" width="800" align="right"/>
 
 ## 📌 Project Overview
 
@@ -45,7 +45,7 @@ To validate and specify the core constraints of the system, we used the [**Alloy
 
 Alloy provided a lightweight formal specification language for:
 
-- Defining system **entities** and **relations** using `sig` and `fact`
+- Defining system **entities** and **relations**
 - Expressing **constraints** and **invariants** clearly
 - Performing **automated analysis** via the Alloy Analyzer to check model consistency
 
