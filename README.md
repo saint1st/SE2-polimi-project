@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="banner2.png" alt="Project Banner" width="100%"/>
+</p>
+
+
 # 💼 Students&Companies (S&C) Platform
 
 
