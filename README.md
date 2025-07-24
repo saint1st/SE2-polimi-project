@@ -1,6 +1,6 @@
 # 💼 Students&Companies (S&C) Platform
 
-**Politecnico di Milano** — *Software Engineering 2 (A.Y. 2024–2025)*  
+
 **Project Type:** Requirement Engineering and Design Project  
 
 ---
@@ -57,10 +57,10 @@ Alloy provided a lightweight formal specification language for:
 - Dorsa Motiallah  
 - Sujata Chaudhury  
 - Darkhan Islam
-- 
+
 <img src="polimi.png" alt="Politecnico di Milano" width="300" align="right"/>
 
-This project was developed as part of the **Software Engineering 2** course at  
+This project was developed as part of the **Software Engineering 2** (A.Y. 2024–2025) course at  
 **Politecnico di Milano** (*PoliMi*), Italy  
 **Course Instructor:** Prof. Matteo Rossi  
 **Lab Assistant:** Alberto Tagliaferro  
